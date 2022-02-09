@@ -9,6 +9,7 @@ body{
     display: flex;
     font-family: 'Outfit',sans-serif;
     align-items: center;
+    font-size: 15px;
 }
 .container{
     max-width: 360px;
@@ -16,4 +17,21 @@ body{
 }
 .img img{
     width: 100%;
+    border-radius: 15px;
+}
+.img{
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.text{
+    padding: 5px 10px;
+}
+h2{
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 5px;
+}
+p{
+    color:hsl(220, 15%, 55%) ;
 }
